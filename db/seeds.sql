@@ -7,4 +7,4 @@ INSERT INTO burgers (name) VALUES ('Plain Wayne');
 INSERT INTO burgers (name) VALUES ('Hotty Habanero');
 INSERT INTO burgers (name) VALUES ('Bunless Wonder');
 INSERT INTO burgers (name) VALUES ('Cheddar Smokestack');
-INSERT INTO burgers (name) VALUES ('Little Tofu Sprout');
+INSERT INTO burgers (name) VALUES ('Lil Tofu Sprout');
