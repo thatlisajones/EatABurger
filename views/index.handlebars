@@ -1,7 +1,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <div class="text-center">
-      {{!-- <h1 class="display-4">Bingey the Cat</h1> --}}
+
       <img src="./assets/img/CatBurgerer.jpg" class="img-fluid" alt="Responsive image">
     </div>
   </div>
@@ -39,54 +39,14 @@
             </ul>
           </p>
 
-        {{!-- </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <div class="form-submit">
-  <div class="col-lg-4">
-    <div class="card">
-      <h5 class="card-title">Create a burger:</h2>
-        <form>
-          <div class="form-group">
-            <div class="row">
-              <div class="col-lg-1"></div>
-              <div class="col-lg-6">
-                <input type="text" class="form-control form-control-lg" id="burgerNameInput" placeholder="Name your burger...">
-              </div>
-              <div class="col-lg-5"></div>
+
+          <form class="create-form">
+
+            <div class="form-group">
+              <label for="burger">Name a new burger:</label>
+              <input type="text" id="burgerNameInput" name="burger_name">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-6">
-              <button class="btn btn-success text-center" type="submit" id="submit">Place your order</button>
-            </div>
-            <div class="col-lg-4"></div>
-            <br>
-            <br>
-          </div>
-        </form>
-    </div>
-  </div>
-</div>
-</div> --}}
 
 
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burger">Name a new burger:</label>
-    <input type="text" id="burgerNameInput" name="burger_name">
-  </div>
-
-  {{!-- <div class="form-group">
-    <label for="sleepy">Sleepy?</label><br>
-    <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
-    <input type="radio" name="sleepy" value="0"> Awake
-  </div> --}}
-
-  <button type="submit">Order it</button>
-</form>
+            <button type="submit">Order it</button>
+          </form>
